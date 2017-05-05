@@ -134,17 +134,6 @@
                     </exclusion>
                 </exclusions>
             </dependency>
-            <dependency>
-                <groupId>org.apache.hadoop</groupId>
-                <artifactId>hadoop-project</artifactId>
-                <version>2.7.1</version>
-                <exclusions>
-                    <exclusion>
-                        <artifactId>jdk.tools</artifactId>
-                        <groupId>jdk.tools</groupId>
-                    </exclusion>
-                </exclusions>
-            </dependency>
         </dependencies>
     </dependencyManagement>
     <dependencies>
